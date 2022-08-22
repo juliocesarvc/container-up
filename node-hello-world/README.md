@@ -35,6 +35,7 @@ This app was created using the [Express application generator][expressgen].
 [express]: https://expressjs.com/
 [expressgen]: https://expressjs.com/en/starter/generator.html
 
+-------------------
 
 Correct Errors:
 
@@ -48,3 +49,7 @@ Correct Errors:
 "scripts": {
     "start": "node ./bin/www"
   }
+
+run in local:
+
+MY_NAME_APP=JVC-APP npm start
