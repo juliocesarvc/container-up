@@ -35,3 +35,16 @@ This app was created using the [Express application generator][expressgen].
 [express]: https://expressjs.com/
 [expressgen]: https://expressjs.com/en/starter/generator.html
 
+
+Correct Errors:
+
+1) In package package.json corregir a:
+
+"express": "~4.16.1"
+
+
+2) In package package.json add "start" in "scripts":
+
+"scripts": {
+    "start": "node ./bin/www"
+  }
