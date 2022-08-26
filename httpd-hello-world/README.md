@@ -9,7 +9,7 @@ Assuming you already have Docker installed, to build the container, run:
 
 This will pull the [Apache HTTP server image from Docker Hub][httpd] and build. Then, to run the container:
 
-    $ docker run -p 8080:80 mywebsite
+    $ docker run -p 8080:8080 -p 8443:8443 mywebsite
 
 The container will start, and you can then access the website at `http://localhost:8080`.
 
